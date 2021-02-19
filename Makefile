@@ -4,7 +4,7 @@ MAKEFLAGS += --no-builtin-variables
 
 SRC := $(PWD)/src
 OUT := $(PWD)/dist
-PRD := $(PWD)/../beefyfinance.github.io
+PRD := $(PWD)/../ballena-io.github.io
 
 .DEFAULT_GOAL := all
 
