@@ -6,7 +6,7 @@
 ## Install:
 `npm install pug-cli -g`
 
-# #Make:
+## Make:
 `make all`
 
 ## Deploy
