@@ -3,13 +3,13 @@
 ## Clone the Github Pages repo
 `git clone https://github.com/ballena-io/ballena-io.github.io`
 
-##Install:
+## Install:
 `npm install pug-cli -g`
 
-##Make:
+# #Make:
 `make all`
 
-##Deploy
+## Deploy
 `make deploy`
 
 Now you can push the repo https://github.com/ballena-io/ballena-io.github.io to production
