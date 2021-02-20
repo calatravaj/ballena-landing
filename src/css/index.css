@@ -12,19 +12,39 @@ body {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width:  768px) { html { font-size: 12px; } }
-@media only screen and (min-width:  769px) { html { font-size: 13px; } }
-@media only screen and (min-width: 1024px) { html { font-size: 14px; } }
-@media only screen and (min-width: 1200px) { html { font-size: 15px; } }
-@media only screen and (min-width: 1400px) { html { font-size: 16px; } }
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
 
 body {
-  background-color: #F9F3EB;
+  background-color: #d8f1fe;
 }
 
 * {
-  font-family: 'proxima-nova', sans-serif;
-  color: #000;
+  font-family: "proxima-nova", sans-serif;
+  color: #1d3149;
   text-rendering: optimizeLegibility;
 }
 
@@ -80,8 +100,8 @@ body {
 }
 
 .nav-btn {
-  padding: .5rem 1.5rem;
-  background: #5A8F69;
+  padding: 0.5rem 1.5rem;
+  background: #1d3149;
   color: #fff;
   border-radius: 2rem;
   font-weight: 700;
@@ -90,15 +110,15 @@ body {
 }
 
 .nav-btn:hover {
-  background-color: #4B7958;
+  background-color: #1d3149;
 }
 
 .nav-btn:active {
-  background-color: #000;
+  background-color: #1d3149;
 }
 
 .nav-txt {
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-weight: 700;
   font-size: 1.2rem;
 }
@@ -123,7 +143,7 @@ body {
   width: 8rem;
   min-height: 6rem;
   margin: 1rem auto;
-  transition: all .1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .hero-brand-logo:hover {
@@ -135,6 +155,8 @@ body {
 }
 
 .hero-brand-name {
+  font-size: 5rem;
+  font-weight: 700;
   margin: 1rem auto;
   min-height: 3rem;
 }
@@ -161,7 +183,7 @@ body {
   align-content: center;
   text-decoration: none;
   margin: 0 1rem;
-  transition: all .1s ease-out; 
+  transition: all 0.1s ease-out;
 }
 
 .cta:hover {
@@ -174,7 +196,7 @@ body {
 
 .cta-img {
   width: 2.2rem;
-  margin-right: .7rem;
+  margin-right: 0.7rem;
 }
 
 .cta-lbl {
@@ -200,9 +222,8 @@ body {
   left: -30rem;
   width: 50rem;
   height: 50rem;
-  
   border-radius: 50%;
-  background-color: #78B388;
+  background-color: #78b388;
 }
 
 .plain-center-bg {
@@ -211,9 +232,8 @@ body {
   left: -25vw;
   width: 100vw;
   height: 30rem;
-  
   border-radius: 50%;
-  background-color: #5A8F69;
+  background-color: #5a8f69;
 }
 
 .plain-center-fg {
@@ -222,9 +242,8 @@ body {
   right: -15vw;
   width: 70vw;
   height: 30rem;
-  
   border-radius: 50%;
-  background-color: #78B388;
+  background-color: #78b388;
 }
 
 .plain-right {
@@ -233,9 +252,8 @@ body {
   right: -40rem;
   width: 60rem;
   height: 60rem;
-  
   border-radius: 50%;
-  background-color: #5A8F69;
+  background-color: #5a8f69;
 }
 
 .cow {
@@ -260,9 +278,9 @@ body {
   right: 2rem;
   width: 18rem;
   background: #fff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   height: auto;
-  transition: all .1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .alert:hover {
@@ -271,5 +289,5 @@ body {
 
 .alert-time {
   font-weight: 700;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
