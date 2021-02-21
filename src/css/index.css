@@ -210,7 +210,6 @@ body {
 
 .plains {
   position: fixed;
-  display: none;
   top: 0;
   left: 0;
   width: 100vw;
@@ -264,9 +263,9 @@ body {
     margin: -4rem auto 0;
   }
 
-  .plains {
+  /* .plains {
     display: block;
-  }
+  } */
 }
 
 .alert {
