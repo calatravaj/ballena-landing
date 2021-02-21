@@ -165,7 +165,7 @@ body {
 
 .hero-brand-brief {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 300;
   text-align: center;
   letter-spacing: -0.1rem;
   max-width: 40rem;
@@ -197,6 +197,7 @@ body {
 }
 
 .cta-img {
+  filter: invert(89%) sepia(74%) saturate(3317%) hue-rotate(176deg) brightness(103%) contrast(108%);
   width: 2.2rem;
   margin-right: 0.7rem;
 }
