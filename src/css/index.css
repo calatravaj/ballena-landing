@@ -75,12 +75,12 @@ body {
 
 .nav-left {
   display: inline-flex;
-  align-items: self-end;
+  align-items: center;
 }
 
 .nav-right {
   display: inline-flex;
-  align-items: self-end;
+  align-items: center;
 }
 
 .nav-logo {
@@ -91,7 +91,7 @@ body {
 
 .nav-item {
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-decoration: none;
 }
 
@@ -100,12 +100,12 @@ body {
 }
 
 .nav-btn {
-  padding: 0.5rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   background: #9addfd;
   color: #1d3149;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none !important;
 }
 
