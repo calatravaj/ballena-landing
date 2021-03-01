@@ -1,6 +1,12 @@
 doctype html
 html(lang='en')
   head
+    script.  
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NCH5GZD')
     title ballena.io
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
@@ -21,17 +27,15 @@ html(lang='en')
     meta(name="theme-color" content="#D8F1FE")
 
   body
+    noscript.
+      (iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCH5GZD"
+      height="0" width="0" style="display:none;visibility:hidden")
+
     .plains.unselectable
       .ocean 
         .wave 
         .wave
         
-    //-   .plain-left
-    //-   .plain-center-bg
-    //-   .plain-right
-    //-   .plain-center-fg
-    //-   .cows
-
     .container
       .nav.unselectable
         .nav-left
@@ -67,21 +71,3 @@ html(lang='en')
             a.cta(href='https://docs.ballena.io' target='_blank')
               img.cta-img(src='./img/gitbook.svg')    
 
-      
-        
-      
-              
-    //- script.
-    //-   const cows = document.querySelector('.cows');
-    //-   let n = Math.ceil(Math.random() * 3 ) + 3;
-
-    //-   const arr = [];
-    //-   for(let i = 0; i < n; i++) {
-    //-     const r = 100 / n;
-    //-     const x = (i + Math.random() * 0.5) * r;
-    //-     const y = Math.ceil(Math.random() * 30) / 10 + 0.5;
-    //-     const w = Math.round(Math.random() * 5) + 3;
-    //-     const d = Math.random() < 0.5 ? -1 : 1;
-    //-     arr.push(`<img class='cow' src='./img/balle_color.png' style='left: ${x}vw; bottom: ${y}rem; width: ${w}rem; transform: scaleX(${d}); z-index: ${Math.ceil(y)}' />`);
-    //-   }
-    //-   cows.innerHTML = arr.join('');
