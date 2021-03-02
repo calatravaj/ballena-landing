@@ -1,12 +1,13 @@
 doctype html
 html(lang='en')
   head
-    script.  
+    script.
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});
       var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-NCH5GZD')
+
     title ballena.io
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
@@ -15,21 +16,22 @@ html(lang='en')
     link(rel='stylesheet' href='css/minireset.min.css')
     link(rel='stylesheet' href='css/index.css')
     link(rel='stylesheet' href='https://use.typekit.net/avo8ruz.css' media='nope!' onload='this.media="all"')
+    link(rel="preconnect" href="https://fonts.gstatic.com")
+    link(href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap" rel="stylesheet")
 
     meta(property='og:local' content='en_US')
     meta(property='og:title' content='ballena.io')
     meta(property='og:description' content='Decentralized Finance for Everybody')
     meta(property='og:type' content='website')
     meta(property='og:url' content='https://ballena.io')
-    meta(property='og:image' content='https://ballena.io/img/balle_circle.png')
+    meta(property='og:image' content='https://ballena.io/img/logo_balle_header_160px.png')
 
-    meta(link rel="apple-touch-icon" href="https://ballena.io/img/balle_circle.png")
+    meta(link rel="apple-touch-icon" href="https://ballena.io/img/logo_balle_header_160px.png")
     meta(name="theme-color" content="#D8F1FE")
 
   body
-    noscript.
-      (iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCH5GZD"
-      height="0" width="0" style="display:none;visibility:hidden")
+    noscript
+      iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-NCH5GZD", height="0", width="0", style="display:none; visibility:hidden")
 
     .plains.unselectable
       .ocean 
@@ -39,7 +41,7 @@ html(lang='en')
     .container
       .nav.unselectable
         .nav-left
-          img.nav-logo(src='./img/balle_circle.png')
+          img.nav-logo(src='./img/logo_balle_header_160px.png')
           a.nav-item(href='#moo!') ballena.io
         .nav-right
           a.nav-item.nav-btn(href='https://app.ballena.io' target="_blank") Launch App
@@ -48,7 +50,7 @@ html(lang='en')
         .hero.unselectable
           .hero-brand
             a.hero-brand-logo(href='https://app.ballena.io' target="_blank")
-              img(src='./img/balle_circle.png')
+              img(src='./img/logo_balle_pet.png')
             h1.hero-brand-name ballena.io
             span.hero-brand-brief Decentralized Finance for Everybody
 
