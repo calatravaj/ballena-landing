@@ -1,7 +1,7 @@
 # https://ballena.io
 
 ## Clone the Github Pages repo
-`git clone https://github.com/ballena-io/ballena-io.github.io`
+`git clone https://github.com/ballena-io/ballena-io.github.io` 
 
 ## Install:
 `npm install pug-cli -g`
